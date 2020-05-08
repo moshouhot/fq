@@ -44,11 +44,11 @@ cfw-bypass:
   - <local>
 cfw-latency-timeout: 5000
 Proxy:
-  - name: V2rayv3.taih.work
+  - name: V2rayv3.taih.xyz
     type: vmess
-    server: v3.taih.work
+    server: v3.taih.xyz
     port: 443
-    uuid: c6b0927a-4ebe-4f71-92e9-a58f3890bbc3
+    uuid: 0129f32f-910b-44b0-b3b4-e4add2ba48c0
     alterId: 233
     cipher: auto
     tls: true
@@ -70,7 +70,7 @@ Proxy Group:
   - name: 自动节点选择
     type: url-test
     proxies:
-      - V2rayv3.taih.work
+      - V2rayv3.taih.xyz
       - Trojantw1.201352.xyz
       - Trojantw0.201352.xyz
     url: http://www.gstatic.com/generate_204
@@ -79,7 +79,7 @@ Proxy Group:
     type: select
     proxies:
       - 自动节点选择
-      - V2rayv3.taih.work
+      - V2rayv3.taih.xyz
       - Trojantw1.201352.xyz
       - Trojantw0.201352.xyz
   - name: Final
@@ -96,14 +96,14 @@ Proxy Group:
     type: select
     proxies:
       - PROXY
-      - V2rayv3.taih.work
+      - V2rayv3.taih.xyz
       - Trojantw1.201352.xyz
       - Trojantw0.201352.xyz
   - name: HKMTMedia
     type: select
     proxies:
       - DIRECT
-      - V2rayv3.taih.work
+      - V2rayv3.taih.xyz
       - Trojantw1.201352.xyz
       - Trojantw0.201352.xyz
   - name: Hijacking
