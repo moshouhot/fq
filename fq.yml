@@ -53,7 +53,7 @@ Proxy:
     cipher: auto
     tls: true
     network: ws
-    ws-path: /
+    ws-path: /233blog
     _index: 0
   - name: Trojantw1.201352.xyz
     type: trojan
