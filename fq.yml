@@ -107,7 +107,7 @@ proxies:
 - name: "Trojanhk1.201352.xyz"
   type: trojan
   server: hk1.201352.xyz
-  port: 443
+  port: 8443
   password: 9bc7b858
   # udp: true
   # sni: example.com # aka server name
